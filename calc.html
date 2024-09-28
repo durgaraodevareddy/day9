@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>CUBE</title>
+</head>
+<body>
+<h2>CALCULATER</h2>
+<form>
+Enter x:<input type="text" id="num" name="number"/></br>
+Enter y:<input type="text" id="number" name="number"/></br>
+<input type="button" value="ADD" onclick="add()">
+<input type="button" value="SUB" onclick="sub()">
+<input type="button" value="MUL" onclick="mul()">
+<input type="button" value="DIV" onclick="div()">
+<input type="button" value="MODU" onclick="modu()">
+
+</form>
+<script type="text/JavaScript">
+function add()
+{
+var numb=parseFloat(document.getElementById("num").value);
+var numbe=parseFloat(document.getElementById("number").value);
+alert(numb+numbe);
+} 
+function sub() 
+{
+var num=document.getElementById("num").value; 
+var numbe=document.getElementById("number").value; 
+alert (num-numbe);
+}
+function mul() 
+{
+var num=document.getElementById("num").value; 
+var numbe=document.getElementById("number").value; 
+alert (num*numbe);
+}
+function div() 
+{
+var num=document.getElementById("num").value; 
+var numbe=document.getElementById("number").value; 
+alert (num/numbe);
+}
+function modu() 
+{
+var num=document.getElementById("num").value; 
+var numbe=document.getElementById("number").value; 
+alert (num%numbe);
+}
+</script>
+</body>
+</html>
